@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="412.0" style="-fx-background-color: #F4E3E3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button layoutX="32.0" layoutY="601.0" mnemonicParsing="false" onAction="#switchToPetType_Page" prefHeight="54.0" prefWidth="51.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4em;">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="29.0" pickOnBounds="true">
+               <image>
+                  <Image url="@image/Screenshot_13.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <HBox layoutX="90.0" layoutY="202.0" prefHeight="100.0" prefWidth="257.0" spacing="30.0">
+         <children>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="95.0" prefWidth="100.0" style="-fx-background-color: #9DB5B0;" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Screenshot_40.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="95.0" prefWidth="100.0" style="-fx-background-color: #9DB5B0;" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Screenshot_41.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="91.0" layoutY="327.0" prefHeight="100.0" prefWidth="257.0" spacing="30.0">
+         <children>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="95.0" prefWidth="100.0" style="-fx-background-color: #9DB5B0;" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Screenshot_39.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="95.0" prefWidth="100.0" style="-fx-background-color: #9DB5B0;" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Screenshot_38.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="91.0" layoutY="447.0" prefHeight="100.0" prefWidth="257.0" spacing="30.0">
+         <children>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="95.0" prefWidth="100.0" style="-fx-background-color: #9DB5B0;" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Screenshot_30.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="95.0" prefWidth="100.0" style="-fx-background-color: #9DB5B0;" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Screenshot_31.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <ImageView fitHeight="69.0" fitWidth="229.0" layoutX="-20.0" layoutY="55.0" pickOnBounds="true">
+         <image>
+            <Image url="@image/Screenshot_8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="89.0" layoutX="72.0" layoutY="-4.0" pickOnBounds="true">
+         <image>
+            <Image url="@image/Screenshot_43.png" />
+         </image>
+      </ImageView>
+      <Text fill="#9db5b0" layoutX="160.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Small Pets">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

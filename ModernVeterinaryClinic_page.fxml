@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="412.0" style="-fx-background-color: #F4E3E3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#bec4c3" height="190.0" layoutX="26.0" layoutY="36.0" stroke="#bec4c3" strokeType="INSIDE" width="367.0" />
+      <ImageView fitHeight="164.0" fitWidth="239.0" layoutX="84.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/clinic.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="375.0" fitWidth="342.0" layoutX="-9.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/contact%20us.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="385.0" fitWidth="126.0" layoutX="315.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/hands%20cat.png" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="115.0" layoutY="497.0" text="https://clinicPet.com/">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="117.0" layoutY="413.0" text="+123-456-7890">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="440.0" text="clinicPet@gmail.com">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="469.0" text="1234,Awali,Makkah,KSA">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <HBox layoutX="36.0" layoutY="616.0" prefHeight="38.0" prefWidth="48.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#back" prefHeight="42.0" prefWidth="39.0" style="-fx-background-color: #ffffff; -fx-background-radius: 4em;">
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/arrow%20without%20color.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <Label layoutX="159.0" layoutY="152.0" text="WELCOM " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="179.0" prefHeight="34.0" prefWidth="137.0" text="to pet clinic" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
